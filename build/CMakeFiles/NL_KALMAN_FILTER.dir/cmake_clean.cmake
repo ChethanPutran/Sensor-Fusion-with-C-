@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/NL_KALMAN_FILTER.dir/main.cpp.obj"
-  "CMakeFiles/NL_KALMAN_FILTER.dir/main.cpp.obj.d"
+  "CMakeFiles/NL_KALMAN_FILTER.dir/src/simulator.cpp.obj"
+  "CMakeFiles/NL_KALMAN_FILTER.dir/src/simulator.cpp.obj.d"
   "NL_KALMAN_FILTER.exe"
   "NL_KALMAN_FILTER.exe.manifest"
   "NL_KALMAN_FILTER.pdb"

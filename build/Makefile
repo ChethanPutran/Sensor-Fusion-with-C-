@@ -523,29 +523,29 @@ NL_KALMAN_FILTER/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NL_KALMAN_FILTER.dir/build.make CMakeFiles/NL_KALMAN_FILTER.dir/build
 .PHONY : NL_KALMAN_FILTER/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+src/simulator.obj: src/simulator.cpp.obj
+.PHONY : src/simulator.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NL_KALMAN_FILTER.dir/build.make CMakeFiles/NL_KALMAN_FILTER.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/simulator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NL_KALMAN_FILTER.dir/build.make CMakeFiles/NL_KALMAN_FILTER.dir/src/simulator.cpp.obj
+.PHONY : src/simulator.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/simulator.i: src/simulator.cpp.i
+.PHONY : src/simulator.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NL_KALMAN_FILTER.dir/build.make CMakeFiles/NL_KALMAN_FILTER.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/simulator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NL_KALMAN_FILTER.dir/build.make CMakeFiles/NL_KALMAN_FILTER.dir/src/simulator.cpp.i
+.PHONY : src/simulator.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/simulator.s: src/simulator.cpp.s
+.PHONY : src/simulator.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NL_KALMAN_FILTER.dir/build.make CMakeFiles/NL_KALMAN_FILTER.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/simulator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NL_KALMAN_FILTER.dir/build.make CMakeFiles/NL_KALMAN_FILTER.dir/src/simulator.cpp.s
+.PHONY : src/simulator.cpp.s
 
 # Help Target
 help:
@@ -587,9 +587,9 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... NL_KALMAN_FILTER"
-	@echo "... main.obj"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/simulator.obj"
+	@echo "... src/simulator.i"
+	@echo "... src/simulator.s"
 .PHONY : help
 
 
